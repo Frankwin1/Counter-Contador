@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"    >
+
+    <item android:id="@+id/reset"
+        android:title="@string/reset_string"
+        android:icon="@drawable/ic_reset"
+        android:onClick="reset3"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/new_number"
+        android:title="@string/new_number"
+        android:icon="@drawable/ic_write"
+        android:onClick="new_number"
+        app:showAsAction="ifRoom"
+        />
+</menu>
